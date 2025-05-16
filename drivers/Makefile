@@ -191,3 +191,5 @@ obj-$(CONFIG_ESOC)              += esoc/
 # GNSS driver
 obj-$(CONFIG_GNSS_SIRF)		+= gnsssirf/
 obj-$(CONFIG_GNSS)		+= gnss/
+# Lindroid DRM Loopback
+obj-$(CONFIG_DRM_LINDROID_EVDI) += lindroid-drm/
